@@ -1,0 +1,26 @@
+1. Finish DataCamp Notebook
+2. Convert all SQL cells to be Python-friendly (this uses SQLite so some code conversion may be required) 
+     
+      !pip install pandasql
+      from pandasql import sqldf
+      
+      # Load data into DataFrame
+      loan_df = pd.read_csv('loan_data.csv')
+      
+      # Define SQL query
+      query = '''
+              SELECT column1, column2, ...
+              FROM loan_df
+              WHERE condition;
+              '''
+      
+      # Execute SQL query
+      result_df = sqldf(query, locals())
+      
+      # Display query result
+      print(result_df)
+
+3. Finalize build for Docker (package dependencies - is able to currently launch the Jupyter Notebook) 
+4. Make sure all cells in Jupyter Notebook run properly in the Docker volume
+5. Make Docker Image on DockerHub
+6. Very thorough GitHub instructions
