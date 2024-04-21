@@ -1,5 +1,5 @@
 FROM python:3.11.7-slim
-LABEL maintainer="Group EJRC: Erin Gehle, Jack Campbell, Romi Gilat, Case Alexander"
+LABEL maintainer="Group EJCR: Erin Gehle, Jack Campbell, Romi Gilat, Case Alexander"
 LABEL version="1.1"
 LABEL description="ECEN 360 Final Project for Data Visualization"
 
@@ -12,12 +12,14 @@ RUN pip install --upgrade pip
 
 # Installing packages 
 RUN pip install \
-    pandas==2.2.2 \
+    pandas==2.2.1 \
     numpy==1.26.4 \
-    matplotlib==3.8.4 \
-    seaborn==0.13.2 \
-    scikit-learn==1.4.2 \
-    ipython==8.23.0 \
+    matplotlib==3.8.3 \
+    seaborn==0.12.2 \
+    scikit-learn==1.4.1.post1 \
+    ipython==8.22.2 \
+    statsmodels==0.14.1 \
+    pandasql==0.7.3 \
     jupyter==1.0.0
 
 WORKDIR /home/notebooks/
