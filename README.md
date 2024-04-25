@@ -1,15 +1,23 @@
 # EJCR_ECEN360_FinalProject
-Read Me for ECEN 360 final project 
+
+README for ECEN 360 final project 
+
 Group members: Case Alexander, Jack Campbell, Erin Gehle, Romi Gilat
+
+
+## Accesing the notebook via Docker and Jupyter Notebook
+
+To view the data analysis component of this project, the user will need to 
+download the Docker file to ensure the proper environment is provided so 
+all the necessary libraries and their dependencies can run properly.
+
+
+## Project Description
 
 For the final project of our data analysis class, we chose to determine the 
 factors that affect loan approval, creating a predictive model that can 
 accurately predict whether a loan would be approved or rejected based on 
 different variables.
-
-To view the data analysis component of this project, the user will need to 
-download the Docker file to ensure the proper environment is provided so 
-all the necessary libraries and their dependencies can run properly.
 
 The variables include interest rates, installment amount, log of annual 
 income, FICO scores, revolving balance, and inquiries in the last six 
