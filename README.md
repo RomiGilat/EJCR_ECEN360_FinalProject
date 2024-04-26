@@ -11,6 +11,21 @@ To view the data analysis component of this project, the user will need to
 download the Docker file to ensure the proper environment is provided so 
 all the necessary libraries and their dependencies can run properly.
 
+1. Open terminal/powershell/command prompt, navigate to where you want to      download the docker file 
+
+2. Clone the repository
+   This can be done using the command git clone <respository_URL>
+   This is the URL: RomiGilat/EJCR_ECEN360_FinalProject
+   
+3. Navigate to  cloned repository.
+   This can be done using cd <repository_name>
+
+4. Build the Docker image.
+   docker build -t <notebook_EJRC.ipynb>
+
+5. Run the Docker Container
+   docker run -it --rm p < host_port>
+
 
 ## Project Description
 
@@ -46,7 +61,7 @@ individuals having FICO scores between 650 and 670 facing a 55% rejection
 rate, while those with scores above 700 had a 70%+ chance of approval. 
 While this was not our sole prediction model, it was invaluable in 
 verifying our predictions and providing visual representations of expected 
-data behavior.
+data behavior. 
 
 
 
@@ -62,7 +77,5 @@ KNN analysis lacked direction, often clustering data points at the bottom
 of the graph or showing a lack of structure, leading to their removal from 
 the final dataset. Compared to properly correlated data, which exhibited
 either positive or negative correlations, this stark difference indicated 
-that these data points should not be used for predictions.
-
-This lack of correlation is further illustrated in the "Correlation Between 
+that these data points should not be used for predictions. This lack of correlation is further illustrated in the "Correlation Between 
 Different Loan Variables" graph in the Jupyter notebook.
