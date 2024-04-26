@@ -9,7 +9,7 @@ Group members: Case Alexander, Jack Campbell, Erin Gehle, Romi Gilat
 
 To view the data analysis component of this project, you will need to 
 download all the contents of this repo to ensure proper environment setup.
-In addition, you will need to have Docker Desktop and a terminal 
+In addition, you will need to have Docker Desktop and a terminal.
 
 ### 1. Open terminal/powershell/command prompt
    Navigate to where you want to download the contents of this GitHub repository.
@@ -25,7 +25,7 @@ In addition, you will need to have Docker Desktop and a terminal
    ![image](https://github.com/RomiGilat/EJCR_ECEN360_FinalProject/assets/143659787/079293fb-633e-44d0-896c-d89630346efd)
 
 ### 3. Navigate to  cloned repository.
-   Assuming you are still in the directory where you used the ```git clone``` command, you can navigate to the coned repository using
+   Assuming you are still in the directory where you used the ```git clone``` command, you can navigate to the cloned repository using
    ```cd EJCR_ECEN360_FinalProject```. 
    
 ### 4. Build the Docker Image
@@ -41,7 +41,7 @@ In addition, you will need to have Docker Desktop and a terminal
    The ```-p 8888:8888``` is mapping the host and container ports to port 8888. Lastly the ```--name final_project final_project_ejrc:0.0.1```
    is naming the container ```final_project``` that will use the image ```final_project_ejrc:0.0.1``` that you created in step 4. 
 
-   Make sure when writing your computer pathways slashes are '/' NOT '\'. PowerShell will default to '\'.
+   Make sure when writing your computer pathways slashes are '`/`' NOT '`\`'. PowerShell will default to '`\`'.
    If 8888:8888 is already in use, you can use a different port, like 8889:8888.
 
 ### 6. Getting to the Notebook
