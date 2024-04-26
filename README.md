@@ -26,10 +26,17 @@ all the necessary libraries and their dependencies can run properly.
    Repo name: EJCR_ECEN360_FinalPRoject
 
 5. Build the Docker image.
-   docker build -t notebook_EJRC.ipynb:1.1 .
+   docker build -t final_project_ejrc:0.0.1 .
 
 6. Run the Docker Container
-   docker run -it --rm p <host_port>
+   docker run -v <your computer pathway>/:/home/notebooks -p 8888:8888 --name final_project final_project_ejrc:0.0.1
+
+   make sure when writing your computer pathways slashes are '/' NOT '\'
+   if 8888:8888 is already in use, use 8889:8888
+
+5. enter localhost:8888 to your browser
+
+   Voila!
 
 
 ## Project Description
