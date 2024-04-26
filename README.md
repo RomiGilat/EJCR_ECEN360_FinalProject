@@ -41,7 +41,7 @@ In addition, you will need to have Docker Desktop and a terminal.
    The ```-p 8888:8888``` is mapping the host and container ports to port 8888. Lastly the ```--name final_project final_project_ejrc:0.0.1```
    is naming the container ```final_project``` that will use the image ```final_project_ejrc:0.0.1``` that you created in step 4. 
 
-   Make sure when writing your computer pathways slashes are '`/`' NOT '`\`'. PowerShell will default to '`\`'.
+   Make sure when writing your computer pathways slashes are `/` NOT `\`. PowerShell will default to `\`.
    If 8888:8888 is already in use, you can use a different port, like 8889:8888.
 
 ### 6. Getting to the Notebook
