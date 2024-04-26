@@ -14,17 +14,22 @@ all the necessary libraries and their dependencies can run properly.
 1. Open terminal/powershell/command prompt, navigate to where you want to      download the docker file 
 
 2. Clone the repository
-   This can be done using the command git clone <respository_URL>
-   This is the URL: RomiGilat/EJCR_ECEN360_FinalProject
+   This can be done using the command: git clone <respository_URL>
+   This is the URL:    
+   https://github.com/RomiGilat/EJCR_ECEN360_FinalProject.git
+
+   If this link doesn't work, navigate to code within the main git page,    
+   and use the HTTPS link
    
-3. Navigate to  cloned repository.
+4. Navigate to  cloned repository.
    This can be done using cd <repository_name>
+   Repo name: EJCR_ECEN360_FinalPRoject
 
-4. Build the Docker image.
-   docker build -t <notebook_EJRC.ipynb>
+5. Build the Docker image.
+   docker build -t notebook_EJRC.ipynb:1.1 .
 
-5. Run the Docker Container
-   docker run -it --rm p < host_port>
+6. Run the Docker Container
+   docker run -it --rm p <host_port>
 
 
 ## Project Description
