@@ -1,4 +1,4 @@
-# EJCR_ECEN360_FinalProject
+# EJCR ECEN360 Final Project
 
 README for ECEN 360 final project 
 
