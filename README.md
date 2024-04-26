@@ -7,16 +7,23 @@ Group members: Case Alexander, Jack Campbell, Erin Gehle, Romi Gilat
 
 ## Accesing the notebook via Docker and Jupyter Notebook
 
-To view the data analysis component of this project, the user will need to 
-download the Docker file to ensure the proper environment is provided so 
-all the necessary libraries and their dependencies can run properly.
+To view the data analysis component of this project, you will need to 
+download all the contents of this repo to ensure proper environment setup.
+In addition, you will need to have Docker Desktop and a terminal 
 
-1. Open terminal/powershell/command prompt, navigate to where you want to      download the docker file 
+1. Open terminal/powershell/command prompt, navigate to where you want to download the contents
+   of this GitHub repository. We recommend using a simple path without spaces to prevent
+   potential terminal errors.
 
 2. Clone the repository
    This can be done using the command: git clone <respository_URL>
-   This is the URL:    
+   The URL can be found below:    
    https://github.com/RomiGilat/EJCR_ECEN360_FinalProject.git
+
+   Alternatively, you can navigate to the '<> Code' button in the top right corner of the
+   repository and select 'Copy url to clipboard'.
+   ![image](https://github.com/RomiGilat/EJCR_ECEN360_FinalProject/assets/143659787/079293fb-633e-44d0-896c-d89630346efd)
+
 
    If this link doesn't work, navigate to code within the main git page,    
    and use the HTTPS link
@@ -34,7 +41,8 @@ all the necessary libraries and their dependencies can run properly.
    make sure when writing your computer pathways slashes are '/' NOT '\'
    if 8888:8888 is already in use, use 8889:8888
 
-5. enter localhost:8888 to your browser
+5. Enter localhost:8888 to your browser (Chrome recommended) or click on the
+   https://127... link in the terminal.
 
    Voila!
 
