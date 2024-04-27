@@ -66,13 +66,12 @@ factors that affect loan approval, creating a predictive model that can
 accurately predict whether a loan would be approved or rejected based on 
 different variables.
 
-The variables include interest rates, installment amount, log of annual 
+The variables/factors impacting loan approval include interest rates, installment amount, log of annual 
 income, FICO scores, revolving balance, and inquiries in the last six 
 months. We chose to use these variables due to their impact on loan 
 approval. This is demonstrated in the Lasso regularization technique, where 
-a positive coefficient suggests that an increase in that feature's value 
-would correspond to an increase in the target variable, while a negative 
-coefficient suggests the opposite.
+a non-zero coefficient suggests that the variable impacts whether the loan was
+approved or not approved.
 
 Within the Naive Bayes model, although it is not a good fit for showcasing 
 our data, it provided a visual representation. For example, the correlation 
@@ -95,19 +94,8 @@ While this was not our sole prediction model, it was invaluable in
 verifying our predictions and providing visual representations of expected 
 data behavior. 
 
-
-
 We chose to exclude debt-to-income ratio, number of delinquencies, and 
-public records because they showed little correlation with loan approval. 
-The Lasso regression of these variables showed "0" correlation when 
-compared, indicating no relationship between the predicted data and the 
-given variables. This was further evidenced by the nonsensical scatter 
-plots in the Naive Bayes analysis, which lacked patterns or logic. In 
-Logistic Regression, these variables were excluded from the final 
-prediction due to their incorrect correlation. Lastly, the scatter plots in 
-KNN analysis lacked direction, often clustering data points at the bottom 
-of the graph or showing a lack of structure, leading to their removal from 
-the final dataset. Compared to properly correlated data, which exhibited
-either positive or negative correlations, this stark difference indicated 
-that these data points should not be used for predictions. This lack of correlation is further illustrated in the "Correlation Between 
-Different Loan Variables" graph in the Jupyter notebook.
+public records because they the Lasso regression of these variables returned 0,
+indicating no relationship between the predicted data and the 
+given variables. This was further evidenced by the lack of a distinguishable pattern in the scatter 
+plots in the Naive Bayes analysis. Therefore, these values were not included in our predictive analysis.
