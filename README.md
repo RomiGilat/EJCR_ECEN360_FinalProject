@@ -9,7 +9,8 @@ Group members: Case Alexander, Jack Campbell, Erin Gehle, Romi Gilat
 
 To view the data analysis component of this project, you will need to 
 download all the contents of this repo to ensure proper environment setup.
-In addition, you will need to have Docker Desktop and a terminal.
+In addition, you will need to have Docker Desktop installed and a terminal.
+These instructions assume you have both Docker Desktop and a terminal open.
 
 ### 1. Open terminal/powershell/command prompt
    Navigate to where you want to download the contents of this GitHub repository.
@@ -28,10 +29,15 @@ In addition, you will need to have Docker Desktop and a terminal.
    Assuming you are still in the directory where you used the ```git clone``` command, you can navigate to the cloned repository using
    ```cd EJCR_ECEN360_FinalProject```. 
    
-### 4. Build the Docker Image
+### 4. Build the Docker Image OR Pull the Docker Image from Docker Hub
    The Dockerfile to run this code has been provided in the repository. To build the Docker image on your local machine, run the following
    command in your terminal/command prompt/powershell: 
    ```docker build -t final_project_ejrc:0.0.1 .```. _Make sure not to omit the period at the end or it will not build properly._
+
+   #### OR
+   In case you want the pre-built image on your local machine from Docker Hub, you can run the following command in your 
+   terminal/command prompt/powershell:
+   ```docker pull eringehle/final_project_ejrc:0.0.1```.
 
 ### 5. Run the Docker Container
    Now that you have built the image, you will need to run the following command to create the Docker container.
