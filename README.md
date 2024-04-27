@@ -21,7 +21,7 @@ These instructions assume you have both Docker Desktop and a terminal open.
    ```git clone https://github.com/RomiGilat/EJCR_ECEN360_FinalProject.git```. 
 
    Alternatively, you can navigate to the '<> Code' button in the top right corner of the
-   repository, select 'HTTPS' (automatic), and then select 'Copy url to clipboard'.
+   repository, select 'HTTPS' (note, if on TAMU GitHub you might have to select 'SSH'), and then select 'Copy url to clipboard'.
    
    ![image](https://github.com/RomiGilat/EJCR_ECEN360_FinalProject/assets/143659787/079293fb-633e-44d0-896c-d89630346efd)
 
