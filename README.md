@@ -56,6 +56,9 @@ These instructions assume you have both Docker Desktop and a terminal open.
         http://3b68f782b520:8888/tree?token=e6f1df23091c3fd3b72be29515b32d569b335dd6ec903519 \
         http://127.0.0.1:8888/tree?token=e6f1df23091c3fd3b72be29515b32d569b335dd6ec903519
 
+### 7. Stopping the Docker container
+   When you are done using the container, make sure to stop the program to ensure it doesn't continue running in the background when not used.
+
    Voila!
 
 
