@@ -51,7 +51,8 @@ These instructions assume you have both Docker Desktop and a terminal open.
    If 8888:8888 is already in use, you can use a different port, like 8889:8888.
 
 ### 6. Getting to the Notebook
-   Enter localhost:8888 to your browser (Chrome recommended) or Ctrl + click on one of the links that pops up in the terminal: \
+   Enter localhost:8888 (or localhost:8889 if you chose that port in the previous step)
+   to your browser (Chrome recommended) or Ctrl + click on one of the links that pops up in the terminal: \
    \
         http://3b68f782b520:8888/tree?token=e6f1df23091c3fd3b72be29515b32d569b335dd6ec903519 \
         http://127.0.0.1:8888/tree?token=e6f1df23091c3fd3b72be29515b32d569b335dd6ec903519
