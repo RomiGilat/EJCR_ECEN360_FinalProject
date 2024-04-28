@@ -16,4 +16,4 @@ the graph analysis.
 Erin was responsible for creating the Docker image on Docker Hub (as well as creating the Dockerfile on the GitHub).
 
 ## Romi Gilat
-Romi was responsible for creating the instructions for the GitHub to be able to access the notebook in Docker Desktop. 
+Romi was responsible for creating the instructions for the GitHub to be able to access the notebook in Docker Desktop, summerizing the project and ensuring it runs properly. 
