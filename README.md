@@ -18,7 +18,7 @@ These instructions assume you have both Docker Desktop and a terminal open.
 
 ### 2. Clone the repository
    You can clone the repo by using the following command:
-   ```git clone https://github.com/RomiGilat/EJCR_ECEN360_FinalProject.git```. 
+   ```git clone https://github.com/RomiGilat/EJCR_ECEN360_FinalProject.git```
 
    Alternatively, you can navigate to the '<> Code' button in the top right corner of the
    repository, select 'HTTPS' (note, if on TAMU GitHub you might have to select 'SSH'), and then select 'Copy url to clipboard'.
@@ -27,20 +27,20 @@ These instructions assume you have both Docker Desktop and a terminal open.
 
 ### 3. Navigate to  cloned repository.
    Assuming you are still in the directory where you used the ```git clone``` command, you can navigate to the cloned repository using
-   ```cd EJCR_ECEN360_FinalProject```. 
+   ```cd EJCR_ECEN360_FinalProject```.
    
 ### 4. Build the Docker Image OR Pull the Docker Image from Docker Hub
    The Dockerfile to run this code has been provided in the repository. To build the Docker image on your local machine, run the following
    command in your terminal/command prompt/powershell: 
-   ```docker build -t final_project_ejrc:0.0.1 .```. _Make sure not to omit the period at the end or it will not build properly._
+   ```docker build -t final_project_ejrc:0.0.1 .```
 
    #### OR
    In case you want the pre-built image on your local machine from Docker Hub, you can run the following command in your 
    terminal/command prompt/powershell:
-   ```docker pull eringehle/final_project_ejrc:0.0.1```.
+   ```docker pull eringehle/final_project_ejrc:0.0.1```
 
 ### 5. Run the Docker Container
-   Now that you have built the image, you will need to run the following command to create the Docker container.
+   Now that you have built the image, you will need to run the following command to create the Docker container:
    ```docker run -v <path_to_repo>/:/home/notebooks -p 8888:8888 --name final_project final_project_ejrc:0.0.1```
    The ```docker run -v``` will create the docker volume for your container, meaning that edits to the code are permanent. For your
    path to the repo, it will be the same file path that you cloned the repository into with an additional ```/EJCR_ECEN360_FinalProject```.
@@ -59,6 +59,7 @@ These instructions assume you have both Docker Desktop and a terminal open.
 
 ### 7. Stopping the Docker container
    When you are done using the container, make sure to stop the program to ensure it doesn't continue running in the background when not used.
+![stopping_container](https://github.com/RomiGilat/EJCR_ECEN360_FinalProject/assets/93958150/6c0a08c8-434a-4803-89a8-7cc1056861ee)
 
    Voila!
 
